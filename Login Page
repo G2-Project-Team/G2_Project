@@ -20,7 +20,7 @@
         </form>
 
         <a href="signup.html" class="create-account">Create an Account</a>
-        <a href="welcome.html" class="forgot-password">Back to Welcome</a>
+        
     </div>
 
 </body>
