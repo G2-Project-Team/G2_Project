@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
+    <title>Welcome</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <div class="login-container">
         <img src="logo-placeholder.png" alt="Company Logo" class="logo">
         <h2>Welcome</h2>
-        <p>Create an account today or explore as a guest.</p>
+        <p>Join us today or log in to continue.</p>
 
         <div>
             <a href="login.html" class="button">Login</a>
-            <a href="create-account.html" class="button">Create Account</a>
-            <a href="guest.html" class="button">View as Guest</a>
+            <a href="signup.html" class="button">Create Account</a>
         </div>
     </div>
+
 </body>
 </html>
-
