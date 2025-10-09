@@ -34,7 +34,7 @@
         </form>
 
         <a href="login.html" class="create-account">Already have an account? Login here</a>
-        <a href="welcome.html" class="forgot-password">Back to Welcome</a>
+        
     </div>
 
 </body>
