@@ -1,0 +1,106 @@
+.navbar .footer{
+    background-color: #45A583 !important;
+    width: 100%;
+    padding: 0px 0px 0px 0px !important;
+    /*border-bottom: 2px solid white;*/
+    /*float:left;*/
+}
+
+#navfooter{
+    background-color: #45A583 !important;
+    width: 100%;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.navlogin{
+    display:inline-block;
+}
+body {
+    background-color: #F2F3F4 !important;
+    min-height: 100vh;
+}
+
+p, a, label {
+    color: #000000;
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-control{
+    max-width: 300px;
+    padding-right:10px;
+}
+
+h1, h2, h3, h4, h5{
+    /*font-family: "Archivo Black", sans-serif;*/
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #162955;
+}
+
+.container:hover .overlay {
+    opacity: 0.9;
+}
+
+.overlay-text {
+    color: #000000;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay-button {
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.card{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: #FFFFFF !important; 
+}
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bold{
+    font-weight: bold;
+}
+
