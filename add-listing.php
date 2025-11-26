@@ -40,7 +40,7 @@ $lon = isset($_GET['lon']) ? htmlspecialchars($_GET['lon']) : null;
     <div class="login-container">
         <img src="logo-placeholder.png" alt="Company Logo" class="logo">
         <h2>Add Listing </h2>
-        <h3><?php echo $grid_id ? "Grid Location $grid_id ($lat, $lon)" : ""; ?></h3>
+        
 
         <?php if ($grid_id && $lat && $lon): ?>
         <!-- Grid Location Information -->
